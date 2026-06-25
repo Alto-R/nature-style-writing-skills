@@ -41,6 +41,15 @@ Introduction and Discussion (per `03`, `05`).
   strong statement names its scope — scenario, spatial unit, temporal horizon, system
   boundary, and binding constraint. If a sentence would be false outside the model boundary,
   put the boundary in the sentence.
+- **Embed the limit, never declare it.** A scope limit or exclusion must ride *inside* the
+  result sentence — carried by the metric's name, the comparison object, the model-boundary
+  phrase, or a subordinate clause — not stated as a standalone clarifying sentence. Defensive
+  constructions that spell out what a result is *not* ("This comparison does not include…",
+  "These comparisons reflect […], rather than […]", "This does not assume…") read like a
+  reviewer response, not a finding; the qualifying detail belongs in Methods or the figure
+  caption (per `06`, `07`), while the result sentence carries the boundary in its own terms.
+  When a draft contains such a sentence, fold each excluded condition into a qualifier and
+  delete the standalone clause.
 - **Association, not causation, unless identified.** Default to "is associated with /
   correlated with / consistent with / varies with / concentrated in / coincides with";
   reserve "driven by / results from / caused by / proves / demonstrates" for cases where the
@@ -55,6 +64,22 @@ transform [system]" → "under the baseline scenario, [n] cases meet [criterion]
 to [value] [unit]". When revising, **preserve every number, figure reference and core
 result, and reorder rather than discard** — introduce no result or judgement not supported by
 the source text, and add no promotional summary.
+
+**Limit-folding rewrite rule.** When a sentence exists only to fence off a result, dissolve it
+into the result it qualifies. Each excluded condition becomes a word or clause; nothing is
+lost, but the prose stops sounding like a rebuttal.
+
+- "This comparison does not include sub-second frequency regulation, nor does it assume
+  residual fuel can be cycled repeatedly." → "Measured as a one-off, hour-to-day dispatchable
+  energy stock, residual energy meeting the turbine constraint exceeds current and planned
+  storage capacity." (the three exclusions now live in "one-off", "hour-to-day", and "meeting
+  the turbine constraint").
+- "These comparisons reflect system cost under an equal hourly-dispatchable supply constraint,
+  rather than the energy cost of an ordinary grid-connected generation project." → "Under an
+  equal hourly-dispatchable supply constraint, the hybrid system's median LCOE is below the
+  compared solar-plus-storage configurations." (drop the "rather than…"; the constraint phrase
+  already bounds what is being compared — the "not an ordinary project" caveat, if needed at
+  all, goes in Methods or the caption).
 
 ## Structure
 
@@ -131,6 +156,8 @@ One-level subheadings as mini-claims? Does each paragraph open with a finding (n
 motivation)? Each paragraph: topic sentence → distribution stats → explicit comparison →
 bounded mechanism → `(Fig. N)`? Any metaphor, slogan or "why it matters" claim to delete or
 move to the Discussion? Does every strong claim name its scope (scenario, unit, horizon,
-boundary)? Association language unless causality is identified? All units as negative
+boundary)? Are scope limits folded *into* the result sentence (metric name, comparison object,
+boundary phrase, subordinate clause) rather than stated as standalone "does not include… /
+reflects… rather than…" sentences? Association language unless causality is identified? All units as negative
 exponents, currency consistent, ranges en-dashed? Scalar stats italic, abbreviations roman?
 "we" near zero in this section?

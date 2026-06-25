@@ -56,6 +56,7 @@ applies, so a correctly written section is already compliant. There is no separa
 | Introduction final paragraph in present tense, introduces the study | `03` |
 | One level of subheadings; sentence case; no terminal punctuation in headings | `04`, `06`, `00` |
 | Italic scalar symbols (*β*, *p*, *R*, *R²*, *n*); roman multi-letter functions/abbrevs | `04` |
+| Scope limits folded into the result sentence, not stated as standalone "does not include…/rather than…" caveats | `04` |
 | Units as negative exponents (`kW m⁻¹`, not `kW/m`); currency consistent (USD) | `04`, `06` |
 | Equations editable, numbered `(1)`, referenced as "equation (1)" | `06` |
 | Figure/table caption ≤ 350 words, self-contained (define every acronym/symbol/colour) | `07` |
