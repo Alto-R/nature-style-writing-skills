@@ -67,19 +67,20 @@ the source text, and add no promotional summary.
 
 **Limit-folding rewrite rule.** When a sentence exists only to fence off a result, dissolve it
 into the result it qualifies. Each excluded condition becomes a word or clause; nothing is
-lost, but the prose stops sounding like a rebuttal.
+lost, but the prose stops sounding like a rebuttal. The recurring repairs:
 
-- "This comparison does not include sub-second frequency regulation, nor does it assume
-  residual fuel can be cycled repeatedly." → "Measured as a one-off, hour-to-day dispatchable
-  energy stock, residual energy meeting the turbine constraint exceeds current and planned
-  storage capacity." (the three exclusions now live in "one-off", "hour-to-day", and "meeting
-  the turbine constraint").
-- "These comparisons reflect system cost under an equal hourly-dispatchable supply constraint,
-  rather than the energy cost of an ordinary grid-connected generation project." → "Under an
-  equal hourly-dispatchable supply constraint, the hybrid system's median LCOE is below the
-  compared solar-plus-storage configurations." (drop the "rather than…"; the constraint phrase
-  already bounds what is being compared — the "not an ordinary project" caveat, if needed at
-  all, goes in Methods or the caption).
+- *Exclusion → into the metric's name.* "This [estimate] does not include [excluded
+  component], and does not assume [optimistic condition]." → "Measured as [bounding
+  qualifier — e.g. a one-off, [timescale]-resolution] [metric], [quantity] exceeds
+  [benchmark] (Fig. [N])." The two exclusions now ride in "[bounding qualifier]".
+- *"Rather than" comparison → into the boundary clause.* "These comparisons reflect [metric]
+  under [constraint], rather than [metric] for [other setting]." → "Under [constraint],
+  [case A] shows a lower [metric] than [case B] (Fig. [N])." Drop the "rather than…"; the
+  "under [constraint]" clause already bounds what is compared, and the "not [other setting]"
+  caveat, if it is needed at all, goes to Methods or the caption.
+- *Caveat → into a subordinate clause.* "This result holds only when [condition]." →
+  "When [condition] holds, [quantity] reaches [value]." Same content, but now it is a finding,
+  not a disclaimer.
 
 ## Structure
 
