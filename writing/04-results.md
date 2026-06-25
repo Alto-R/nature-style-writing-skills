@@ -108,14 +108,27 @@ lost, but the prose stops sounding like a rebuttal. The recurring repairs:
 
 ## Per-paragraph build
 
-Each results paragraph follows the same arc:
+**Claim first, then evidence read from the source data.** Each paragraph opens with its general
+point and immediately substantiates it with concrete support taken from the figure's underlying
+data — never the bare claim alone. Support is not only summary numbers: use whatever particular
+the data carry — the named regions or locations, the dominant categories or entities, the
+specific dates or periods, an illustrative case that exemplifies the pattern. A spatial claim
+names the places ("concentrated in [region A] and [region B]"), a ranking names the top members,
+a temporal claim names the years. **Read the source data behind each figure before writing** so
+every particular is real and traceable to the panel it cites; do not invent place names,
+rankings or example values to fill the arc.
+
+Each results paragraph then follows the same arc:
 
 1. **Topic sentence = the finding.** "[Substantial / pronounced] [pattern] [is evident /
    emerges] in [quantity] (Fig. [N]a)."
 2. **Summary statistics.** Give the distribution, not just a mean: "[mean] ± [SD], with a
    median of [value] and a range of [a–b], indicating [substantial heterogeneity / a skew]."
-3. **Explicit comparison / benchmark.** "[Subgroup] reach [value], about [k] times that of
-   [reference group] ([value])," or "[x]% of the sample exceed [threshold]".
+3. **Explicit comparison and concrete particulars.** Anchor the magnitude against a benchmark
+   and name the specifics behind it: "[Subgroup] reach [value], about [k] times that of
+   [reference group] ([value])," or "[x]% of the sample exceed [threshold]," and identify
+   *which* and *where* — "the highest values occur in [named places/entities], while [named
+   group] remain below [threshold]".
 4. **Bounded mechanism or heterogeneity.** Tie the pattern only to variables analysed in the
    paper, in restrained language — "is associated with", "is consistent with", "varies with",
    "is concentrated in". Often via a regression: "[Outcome] is mainly associated with
@@ -165,6 +178,8 @@ about [k] times that of [reference] ([magnitude]), a pattern consistent with [dr
   include… / reflects… rather than…" sentences?
 - **Structure:** One-level subheadings as mini-claims? One core finding per paragraph?
 - **Per-paragraph build:** topic sentence → distribution stats → explicit comparison →
-  bounded mechanism → `(Fig. N)`?
+  bounded mechanism → `(Fig. N)`? Is each claim backed by support read from the figure's source
+  data — numbers *and* the relevant particulars (places, categories, dates, example cases),
+  none invented?
 - **Numbers:** All units as negative exponents, currency consistent, ranges en-dashed? Scalar
   stats italic, abbreviations roman?
