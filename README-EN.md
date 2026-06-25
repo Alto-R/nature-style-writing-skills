@@ -36,7 +36,7 @@ A Claude Code skill for **Nature Communications** and Nature-branded research jo
 Every editorial rule is baked into the section guide where it applies: a correctly written section is already compliant.
 
 - **Section-by-section templates**: title / abstract / introduction / results / discussion / methods / figures / references / declarations — each with paragraph-by-paragraph structure, sentence templates (placeholders, not real content), tense/voice, and the compliance rules embedded at the point they apply.
-- **Distilled from multiple sub-journal experiences**: built from the writing experience of several manuscripts actually accepted at Nature family journals, stripped of topic-specific content into reusable, topic-agnostic templates.
+- **Distilled from multiple sub-journal experiences**: built from the writing experience of several manuscripts actually accepted at Nature family journals — including one first-author Nature Communications paper already published — stripped of topic-specific content into reusable, topic-agnostic templates. The rules come from first-hand experience of getting through review and into print, not second-hand summaries that have never been tested by publication.
 - **Compliance rules from real checklists**: every threshold and formatting requirement is distilled from the journals' actual submission checklists — not invented — and embedded into the relevant section where it applies.
 - **Writing equals compliance**: turn each file's "Self-check" line into TodoWrite items so nothing is skipped.
 - **Pre-submission safety net**: optional verification scripts catch artifact-level issues you *cannot* fix by writing (tracked changes left on, oversized files, stale SI PDF, red-green pixels in figures).
